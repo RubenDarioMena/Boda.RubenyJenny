@@ -1,0 +1,116 @@
+/* Estilos globales */
+body {
+    background-color: #1a1a1a;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  a {
+    color: #ff4141;
+  }
+  
+  /* Estilos del encabezado */
+  header {
+    background-color: #1e1e1e;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    border-bottom: 2px solid #ff4141;
+  }
+  
+  /* Estilos del contenido principal */
+  main {
+    margin: 20px;
+  }
+  
+  section {
+    background-color: #000;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #333;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #ff4141;
+    font-size: 2em;
+    margin-top: 0;
+  }
+  
+  p {
+    line-height: 1.5;
+  }
+  
+  img {
+    max-width: 100%;
+    width: 500px; 
+  }
+  .img-thumbnail {
+    height: fit-content;
+  }
+  .img2{
+      object-fit: contain;
+      max-height: 100%;
+    }
+  .imagecontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+  /* Estilos del pie de página */
+  footer {
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  hr {
+    margin: 20px auto;
+    color: #F05F44;
+    border: 3px solid #F05F44;
+    max-width: 65px;
+    opacity: 1;  
+  }
+  .bt-xl {
+    padding: 1rem 2rem;
+  } 
+  .btn{
+    font-weight: 700;
+    border-radius: 300px;
+    text-transform: uppercase;
+  }
+  .btn-primary{
+    background-color: #f05F44;
+    border-color: #f05F44;
+  }
+  .btn-primary:hover{
+    color: #fff;
+    background-color: #ff4141;
+    border-color: #ee4b28;
+  }
+  .btn-primary:active{
+    color: #fff;
+    background-color: #ff4141;
+    border-color: #ee4b28;
+    box-shadow: 0 0 0 0.2rem rgba(240,95,68,.5)
+  }
+  
